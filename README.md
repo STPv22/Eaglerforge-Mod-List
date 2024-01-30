@@ -5,7 +5,7 @@ list of official EaglerReborn plugins, and also some ones that I made.
 - a test. when you press "z" a chat meassage sould pop up saying "enabled"
 
   ## to make your own:
-  
+  ```
 var isToggled = false;
 
 window.addEventListener("keydown", (event) => { //look for key down
