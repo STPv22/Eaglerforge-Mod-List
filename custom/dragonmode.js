@@ -1,3 +1,4 @@
+//baicicly just makes u immune to everthing, and allows flying
 PluginAPI.require("player");
 
 var isToggled = false;
