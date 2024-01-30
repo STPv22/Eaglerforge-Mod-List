@@ -1,4 +1,4 @@
-//baicicly just makes u immune to everthing, and allows flying
+//baicicly just makes u immune to everthing, and allows flying. so for all the tests u just get kicked
 PluginAPI.require("player");
 
 var isToggled = false;
