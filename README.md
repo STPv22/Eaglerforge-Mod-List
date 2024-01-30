@@ -10,7 +10,7 @@ var isToggled = false;
 
 window.addEventListener("keydown", (event) => { //look for key down
   if (event.key.toLowerCase()==="z"){
-    PluginAPI.displayToChat({msg: "Working!" + isToggled});
+    PluginAPI.displayToChat({msg: "Hack name" + isToggled});
   }
 });
 ```
