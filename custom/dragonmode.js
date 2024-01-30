@@ -6,6 +6,7 @@ window.addEventListener("keydown", (event) => { //look for key down
   if (event.key.toLowerCase()==="x"){
    isToggled = !isToggled;
   }
+});
   if (isToggled === true){
      PluginAPI.player.capabilities.disableDamage = isToggled;
     PluginAPI.player.capabilities.allowFlying = isToggled;
@@ -18,4 +19,3 @@ window.addEventListener("keydown", (event) => { //look for key down
   else if(!isToggled){
     PluginAPI.displayToChat({msg: "&4&ldragonmode diabled"});
   }
-});
