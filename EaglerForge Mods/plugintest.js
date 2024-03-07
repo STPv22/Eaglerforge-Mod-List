@@ -1,7 +1,8 @@
 ModAPI.require("player")
+var isToggled = false;
+
 ModAPI.addEventListener("key", (event) => {
   if (event.key == 35){
-      ModAPI.player.motionY =+ 1
-      ModAPI.displayToChat({msg: "the 'h' key has been pressed!"})
+      ModAPI.player.inventory.currentItem = 1
   }
 }); 
