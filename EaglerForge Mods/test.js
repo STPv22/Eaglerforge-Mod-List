@@ -1,1 +1,0 @@
-const win = window.open();
