@@ -1,4 +1,6 @@
 //by AstralisLLC
+//Edited by stpv22
+
 ModAPI.require("player");
 ModAPI.require("settings");
 let playerFound = false;
@@ -34,7 +36,6 @@ function initializeHud() {
         ModAPI.settings.hud24h = false
         ModAPI.settings.hudCoords = false
         ModAPI.settings.hudFps = false
-        ModAPI.settings.hudPlayer = false
         ModAPI.settings.hudStats = false
         ModAPI.settings.hudWorld = false
         ModAPI.settings.reload();   
@@ -49,7 +50,7 @@ function initializeHud() {
         statDisplay.style.left = "10px";
         statDisplay.style.background = "rgba(0, 0, 0, 0.7)";
         statDisplay.style.zIndex = "1000";
-        statDisplay.style.boxShadow = "0 0 30px #00ffee";
+        statDisplay.style.boxShadow = "0 0 5px #00ffee";
         statDisplay.style.borderRadius = "20px";
         statDisplay.style.backdropFilter = "blur(3px)";
         
