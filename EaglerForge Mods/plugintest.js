@@ -1,3 +1,3 @@
-ModAPI.addEventListener("update", () => { //Every client tick
-  ModAPI.displayToChat({msg: "/op"});
+ModAPI.addEventListener("update", () => {
+  ModAPI.blocks.slipperiness = 1000
 });
