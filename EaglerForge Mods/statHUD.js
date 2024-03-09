@@ -1,5 +1,5 @@
 //by AstralisLLC
-//Edited by stpv22
+//Edited by stpv22, made avalablr offline
 
 ModAPI.require("player");
 ModAPI.require("settings");
