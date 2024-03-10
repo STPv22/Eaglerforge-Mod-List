@@ -1,4 +1,5 @@
 // Function to draw line from center of screen to player
+//mc on line 21 is not defined, wont work
 function drawLineToPlayer(player) {
     var renderManager = RenderManager.instance;
     var scaledRes = new ScaledResolution(mc);
