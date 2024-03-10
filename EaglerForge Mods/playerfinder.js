@@ -1,6 +1,6 @@
 // Function to draw line from center of screen to player
 //mc on line 21 is not defined, wont work
-function drawLineToPlayer(player, mc) {
+function drawLineToPlayer(player) {
     var renderManager = RenderManager.instance;
     var scaledRes = new ScaledResolution(mc);
     var centerX = scaledRes.getScaledWidth() / 2;
@@ -17,7 +17,7 @@ function drawLineToPlayer(player, mc) {
 }
 
 // Function to draw lines to all players in render distance
-function drawLinesToPlayers(mc) {
+function drawLinesToPlayers() {
     var world = mc.theWorld;
     var renderManager = RenderManager.instance;
     var players = world.playerEntities;
