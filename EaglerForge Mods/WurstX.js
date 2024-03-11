@@ -14,7 +14,7 @@ let playerFound = false; //is the player in a game?
 
 //object for holding all of the hax's GUI
 var gui = {
-  playerFound = false,
+  playerFound: false,
   enabled: true,
   draw: function(){
       var menu = document.createElement("div");
