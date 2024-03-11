@@ -3,7 +3,7 @@ var gui = {
   draw: function(){
     var menu = document.createElement("div");
     menu.style = "background-color: black;";
-  }
+  },
   jetpack:{
     enabled: false;
   }
