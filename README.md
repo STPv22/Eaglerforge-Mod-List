@@ -3,7 +3,7 @@
 - burmod
   - A hacked Client Wip, includes:
     - RBG clouds
-- Stat HUD
+- StatHUD
   - By AstrallisLLC
   - Displays FPS, time, and coords, edited by me to be made avalable offline by encoding the font in Base64
 - healwithspiderhack
