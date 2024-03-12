@@ -1,9 +1,7 @@
-# EaglerReborn-plugins
-list of official EaglerReborn plugins, and also some ones that I made.
 
-## The plugins I have made are in the "custom" folder, currently there is:
-- a test. when you press "z" a chat meassage sould pop up saying "enabled"
-
+#Mods list:
+- burmod
+  - 
 ## template to make your own:
 ``` javascript
 var isToggled = false;
