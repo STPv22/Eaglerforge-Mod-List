@@ -1,6 +1,4 @@
-var PluginAPI = ModAPI
 ModAPI.require("player");
-PluginAPI.require("player");
 ModAPI.require("displayToChat")
 
 
@@ -19,9 +17,9 @@ function heal() {
 
 
 function spiderListener() {
-    if (PluginAPI.player.isCollidedHorizontally) {
-        PluginAPI.player.motionY += 0.2;
-        PluginAPI.player.reload();
+    if (ModAPI.player.isCollidedHorizontally) {
+        ModAPI.player.motionY += 0.2;
+        ModAPI.player.reload();
     }
 }
 
