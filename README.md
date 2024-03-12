@@ -1,19 +1,12 @@
 
-#Mods list:
+# Mods list:
 - burmod
-  - 
-## template to make your own:
-``` javascript
-var isToggled = false;
+  - A hacked Client Wip, includes:
+    - RBG clouds
+- Stat HUD
+  - By AstrallisLLC
+  - Displays FPS, time, and coords, edited by me to be made avalable offline by encoding the font in Base64
+- healwithspiderhack
+  - By evokerking1
+  - doesnt work. The hack is supposed to heal you and allows you to cimb walls
 
-window.addEventListener("keydown", (event) => { //look for key down
-  if (event.key.toLowerCase()==="z"){
-    PluginAPI.displayToChat({msg: "Hack name" + isToggled});
-  }
-});
-```
-### you can also make it in typeScript
-
-you can veiw the pluginAPI file [here](https://github.com/EaglerReborn/reborn-example-plugin/blob/main/src/PluginAPI.d.ts)
-
-# THIS DOES NOT CONTAIN ANY SOUCECODE OF EAGLER, SO YOU CAN'T DMCA
