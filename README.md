@@ -10,5 +10,5 @@
   - By evokerking1
   - doesnt work. The hack is supposed to heal you and allows you to cimb walls.
   - To heal you would need to type `p!heal` in chat or press h to heal.
-  - Full wiki at https://github.com/evokerking1/EaglerForge-mods
-
+  - Full wiki at [https://github.com/evokerking1/EaglerForge-mods
+](https://evokerkings-eaglerforge-mods-doc.gitbook.io/evokerkings-eaglerforge-mods-documentation/)https://evokerkings-eaglerforge-mods-doc.gitbook.io/evokerkings-eaglerforge-mods-documentation/
