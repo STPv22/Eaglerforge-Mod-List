@@ -21,7 +21,7 @@ var gui = {
       menu.style = "background-color: black;"
   },
   jetpack:{
-    enabled: false;
+    enabled: false,
   }
 }
 
