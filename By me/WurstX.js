@@ -18,7 +18,7 @@ var gui = {
   enabled: true,
   draw: function(){
       var menu = document.createElement("div");
-      menu.style = "background-color: black;"
+      menu.style = "background-color: black;";
   },
   jetpack:{
     enabled: false,
@@ -42,7 +42,7 @@ if (gui.playerFound) ModAPI.displayToChat({msg: "§5WurstX by §6stpv22})
 ModAPI.addEventListener("key", (event) => {
     if (gui.playerFound){
       if(event.key == 42){ //left shift
-        gui.draw()
+        gui.draw();
       }
     }
 })
