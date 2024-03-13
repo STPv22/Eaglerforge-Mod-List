@@ -7,7 +7,6 @@ ModAPI.addEventListener("key", (event) => {
       if (enabled == true) {
         enabled = false;
         ModAPI.displayToChat({msg: "§5AutoClicker disabled!"})
-          ModAPI.update()
       } 
     }
     if (event.key == 33) {
