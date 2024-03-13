@@ -12,7 +12,7 @@ ModAPI.addEventListener("key"(key:"35"), heal());
 ModAPI.addEventListener("update", spiderListener());
 
 function heal() { 
-     ModAPI.LocalPlayerData.setPlayerSPHealth({health: 20}) ;
+     ModAPI.LocalPlayerData.setPlayerSPHealth({health: 20});
      ModAPI.displayToChat({msg: "Healing"});
  }
 
