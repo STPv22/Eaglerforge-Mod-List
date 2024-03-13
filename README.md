@@ -1,7 +1,7 @@
 
 # Mods list:
 - burmod
-  - A hacked Client Wip, includes:
+  - A hacked Client WIP, includes:
     - RBG clouds
 - StatHUD
   - By AstrallisLLC
