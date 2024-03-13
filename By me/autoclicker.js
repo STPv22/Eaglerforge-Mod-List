@@ -16,5 +16,6 @@ ModAPI.addEventListener("key", (event) => {
 })
 
 ModAPI.addEventListener("update", () => {//every time the client updates
-  if (enabled == true) ModAPI.clickMouse(); //left click. rightClickMouse()
+  if (enabled == true) ModAPI.clickMouse();//left click. rightClickMouse()
+    else {}
 })
