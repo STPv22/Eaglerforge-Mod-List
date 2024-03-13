@@ -8,17 +8,17 @@ ModAPI.addEventListener("key", (event) => {
         enabled = false;
         ModAPI.displayToChat({msg: "§5AutoClicker disabled!"})
           ModAPI.update()
-      }
-      if(!enabled){
+      } 
+    }
+    if (event.key == 33) {
+        if(!enabled){
         enabled = true;
         ModAPI.displayToChat({msg: "§5AutoClicker enabled!"})
-          ModAPI.update()
       }
     }
 })
 
 ModAPI.addEventListener("update", () => {//every time the client updates
   if (enabled == true) ModAPI.clickMouse();//left click. rightClickMouse()
-    else {
-    }
+    else {}
 })
