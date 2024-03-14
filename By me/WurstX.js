@@ -9,11 +9,8 @@ ModAPI.require("player");
 
 //object for holding all of the hax's GUI
 var gui = {
-  playerFound: false, // is the player inGame?
+  playerFound: false, // is the player in-Game?
   enabled: true,
-  jetpack:{
-    enabled: false,
-  }
 }
 function drawGui(){
       var menu = document.createElement("div");
@@ -35,9 +32,9 @@ checkForGame();
 if (gui.playerFound) ModAPI.displayToChat({msg: "§5WurstX by §6stpv22})
 
 ModAPI.addEventListener("key", (ev) => {
-    if (gui.playerFound == true){
-      if(ev.key == 42){ //left shift
-        drawGui();
+  if(ev.key == 42){ //left shift
+      if (gui.playerFound == true){
+              drawGui();
       }
     }
 });
