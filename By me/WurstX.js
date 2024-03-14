@@ -34,7 +34,7 @@ checkForGame();
 
 if (gui.playerFound) ModAPI.displayToChat({msg: "§5WurstX by §6stpv22})
 
-ModAPI.addEventListener("key", (event) => {
+ModAPI.addEventListener("Key", (event) => {
     if (gui.playerFound){
       if(event.key == 42){ //left shift
         drawGui();
