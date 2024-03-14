@@ -34,10 +34,10 @@ checkForGame();
 
 if (gui.playerFound) ModAPI.displayToChat({msg: "§5WurstX by §6stpv22})
 
-ModAPI.addEventListener("Key", (event) => {
-    if (gui.playerFound){
-      if(event.key == 42){ //left shift
+ModAPI.addEventListener("key", (ev) => {
+    if (gui.playerFound == true){
+      if(ev.key == 42){ //left shift
         drawGui();
       }
     }
-})
+});
