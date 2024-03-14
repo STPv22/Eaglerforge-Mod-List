@@ -1,12 +1,12 @@
 
 # Mods list:
 ## official
-  - Blink
+- Blink
     - Enbable/disable: `.blinkon`, `.blinkoff`
     - Allows you to move around a server as if you have tined you wifi off. Try not to interact with too many things or the game will crash.
-  -Grapplehook
+-Grapplehook
     - Supposedly makes it so that a fishhook acts like a graplehook.
-  - Scroll
+- Scroll
      - not sure yet
 
 ## Other
