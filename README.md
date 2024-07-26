@@ -26,5 +26,5 @@
     - Full wiki at [https://github.com/evokerking1/EaglerForge-mods
 ](https://evokerkings-eaglerforge-mods-doc.gitbook.io/evokerkings-eaglerforge-mods-documentation/)https://evokerkings-eaglerforge-mods-doc.gitbook.io/evokerkings-eaglerforge-mods-documentation
 - WurstX
-    - no idea why this doesn't work
+    - i was stupid, and I didn't know that the event listener wasn't called until you join the game or smh. remaking in ts mabe, thx to astralis for setting that up.
     
